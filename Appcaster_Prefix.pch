@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Appcaster' target in the 'Appcaster' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Appcaster";
+CFBundleShortVersionString = "0.9.1";
+CFBundleGetInfoString = "0.9.1, © 2010 Figure 53";
+NSHumanReadableCopyright = "© 2010 Figure 53";
