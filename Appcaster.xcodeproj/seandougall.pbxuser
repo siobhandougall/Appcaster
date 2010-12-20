@@ -385,6 +385,12 @@
 			40F66DEF12BFEA7900FF5B5C /* PBXTextBookmark */ = 40F66DEF12BFEA7900FF5B5C /* PBXTextBookmark */;
 			40F66DF012BFEA7900FF5B5C /* PBXTextBookmark */ = 40F66DF012BFEA7900FF5B5C /* PBXTextBookmark */;
 			40F66DF312BFEEA200FF5B5C /* PBXTextBookmark */ = 40F66DF312BFEEA200FF5B5C /* PBXTextBookmark */;
+			40F66DF512BFF09300FF5B5C /* PBXTextBookmark */ = 40F66DF512BFF09300FF5B5C /* PBXTextBookmark */;
+			40F66DF612BFF09300FF5B5C /* PBXTextBookmark */ = 40F66DF612BFF09300FF5B5C /* PBXTextBookmark */;
+			40F66DF912BFF0AA00FF5B5C /* PBXTextBookmark */ = 40F66DF912BFF0AA00FF5B5C /* PBXTextBookmark */;
+			40F66DFB12BFF0BF00FF5B5C /* PBXTextBookmark */ = 40F66DFB12BFF0BF00FF5B5C /* PBXTextBookmark */;
+			40F66DFC12BFF0BF00FF5B5C /* PBXTextBookmark */ = 40F66DFC12BFF0BF00FF5B5C /* PBXTextBookmark */;
+			40F66DFD12BFF0C100FF5B5C /* PBXTextBookmark */ = 40F66DFD12BFF0C100FF5B5C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 40F66AE912BBE8B300FF5B5C /* Source Control */;
 		userBuildSettings = {
@@ -2283,9 +2289,9 @@
 	};
 	40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1700}}";
-			sepNavSelRange = "{2790, 0}";
-			sepNavVisRange = "{1374, 1628}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1683}}";
+			sepNavSelRange = "{2884, 0}";
+			sepNavVisRange = "{1374, 1522}";
 		};
 	};
 	40F66CFE12BFCA2700FF5B5C /* PBXTextBookmark */ = {
@@ -2415,7 +2421,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 81";
 		rLen = 0;
-		rLoc = 3002;
+		rLoc = 2893;
 		rType = 0;
 		vrLen = 1025;
 		vrLoc = 521;
@@ -2625,7 +2631,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 82";
 		rLen = 0;
-		rLoc = 3002;
+		rLoc = 2893;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 976;
@@ -2655,7 +2661,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 82";
 		rLen = 0;
-		rLoc = 3002;
+		rLoc = 2893;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 976;
@@ -2685,7 +2691,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 82";
 		rLen = 0;
-		rLoc = 3002;
+		rLoc = 2893;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 976;
@@ -2885,7 +2891,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 82";
 		rLen = 0;
-		rLoc = 3002;
+		rLoc = 2893;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 1016;
@@ -2985,7 +2991,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 83";
 		rLen = 0;
-		rLoc = 2802;
+		rLoc = 2807;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 1145;
@@ -2995,7 +3001,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 83";
 		rLen = 0;
-		rLoc = 2803;
+		rLoc = 2808;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 1277;
@@ -3465,7 +3471,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2995;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1518;
 		vrLoc = 1429;
@@ -3495,7 +3501,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2995;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 1429;
@@ -3505,7 +3511,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2995;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 1374;
@@ -3565,7 +3571,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2995;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 1374;
@@ -3575,7 +3581,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 1374;
@@ -3605,7 +3611,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1589;
 		vrLoc = 1374;
@@ -3615,7 +3621,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 94";
 		rLen = 0;
-		rLoc = 2903;
+		rLoc = 2885;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 1374;
@@ -3645,7 +3651,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2973;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1628;
 		vrLoc = 1374;
@@ -3675,7 +3681,7 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 95";
 		rLen = 0;
-		rLoc = 2972;
+		rLoc = 2887;
 		rType = 0;
 		vrLen = 1628;
 		vrLoc = 1374;
@@ -3705,9 +3711,69 @@
 		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
 		name = "AppcastXMLImporter.m: 93";
 		rLen = 0;
-		rLoc = 2790;
+		rLoc = 2795;
 		rType = 0;
 		vrLen = 1628;
+		vrLoc = 1374;
+	};
+	40F66DF512BFF09300FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66B8A12BC5C5300FF5B5C /* AppcastController.m */;
+		name = "AppcastController.m: 156";
+		rLen = 0;
+		rLoc = 8020;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 1511;
+	};
+	40F66DF612BFF09300FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66B8A12BC5C5300FF5B5C /* AppcastController.m */;
+		name = "AppcastController.m: 126";
+		rLen = 6;
+		rLoc = 6713;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 5225;
+	};
+	40F66DF912BFF0AA00FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
+		name = "AppcastXMLImporter.m: 94";
+		rLen = 0;
+		rLoc = 2884;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 1374;
+	};
+	40F66DFB12BFF0BF00FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66B8A12BC5C5300FF5B5C /* AppcastController.m */;
+		name = "AppcastController.m: 156";
+		rLen = 0;
+		rLoc = 8020;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 1511;
+	};
+	40F66DFC12BFF0BF00FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66B8A12BC5C5300FF5B5C /* AppcastController.m */;
+		name = "AppcastController.m: 126";
+		rLen = 6;
+		rLoc = 6713;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 5225;
+	};
+	40F66DFD12BFF0C100FF5B5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40F66CFC12BFC33B00FF5B5C /* AppcastXMLImporter.m */;
+		name = "AppcastXMLImporter.m: 94";
+		rLen = 0;
+		rLoc = 2884;
+		rType = 0;
+		vrLen = 1522;
 		vrLoc = 1374;
 	};
 	8D15AC270486D014006FF6A4 /* Appcaster */ = {

@@ -90,9 +90,8 @@ didStartElement: (NSString *) elementName
     else if ([elementName isEqualToString:@"pubDate"])
     {
         NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
-        [formatter setDateFormat:@"dd MMM yyyy HH:mm:ss ZZ"];
-        _thisRevision.date = [formatter dateFromString:[_thisElementString substringFromIndex:5]];
-        NSLog(@"%@ => %@", [_thisElementString substringFromIndex:5], _thisRevision.date);
+        [formatter setDateFormat:@"EEE, dd MMM yyyy HH:mm:ss ZZ"];
+        _thisRevision.date = [formatter dateFromString:_thisElementString];
     }
 }
 

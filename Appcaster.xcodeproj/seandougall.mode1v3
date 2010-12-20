@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>40F66DF312BFEEA200FF5B5C</string>
+										<string>40F66DFD12BFF0C100FF5B5C</string>
 										<key>history</key>
 										<array>
 											<string>40F66B4B12BC59E600FF5B5C</string>
@@ -548,14 +548,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>40F66DF412BFEEA200FF5B5C</string>
 		<string>40F66B5912BC59E600FF5B5C</string>
 		<string>40F66B5A12BC59E600FF5B5C</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>40F66B0F12BC036600FF5B5C</string>
 		<string>/Users/seandougall/Work/Figure53/Sandbox/Appcaster/Appcaster.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -931,7 +930,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
