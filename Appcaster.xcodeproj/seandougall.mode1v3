@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>24</integer>
+									<integer>26</integer>
 									<integer>23</integer>
 									<integer>0</integer>
 								</array>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>40F66E6612C0019500FF5B5C</string>
+										<string>40F66E7112C005F300FF5B5C</string>
 										<key>history</key>
 										<array>
 											<string>40F66B4B12BC59E600FF5B5C</string>
@@ -339,16 +339,17 @@
 											<string>40F66CCB12BF666500FF5B5C</string>
 											<string>40F66CEA12BF6BCB00FF5B5C</string>
 											<string>40F66CEB12BF6BCB00FF5B5C</string>
-											<string>40F66D0212BFCA2700FF5B5C</string>
 											<string>40F66D4012BFE1DE00FF5B5C</string>
 											<string>40F66D4112BFE1DE00FF5B5C</string>
 											<string>40F66D5A12BFE30100FF5B5C</string>
 											<string>40F66D5C12BFE30100FF5B5C</string>
-											<string>40F66D6512BFE34100FF5B5C</string>
 											<string>40F66DD812BFE9AD00FF5B5C</string>
 											<string>40F66E2912BFFE4700FF5B5C</string>
-											<string>40F66E2A12BFFE4700FF5B5C</string>
-											<string>40F66E3512C0014400FF5B5C</string>
+											<string>40F66E6C12C005F300FF5B5C</string>
+											<string>40F66E6D12C005F300FF5B5C</string>
+											<string>40F66E6E12C005F300FF5B5C</string>
+											<string>40F66E6F12C005F300FF5B5C</string>
+											<string>40F66E7012C005F300FF5B5C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -546,13 +547,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>40F66E6712C0019500FF5B5C</string>
 		<string>40F66E6812C0019500FF5B5C</string>
 		<string>40F66E6912C0019500FF5B5C</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>40F66B0F12BC036600FF5B5C</string>
 		<string>/Users/seandougall/Work/Figure53/Repos/Appcaster/Appcaster.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -926,7 +926,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

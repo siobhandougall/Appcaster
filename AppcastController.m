@@ -18,7 +18,17 @@
 @synthesize revisionArrayController = _revisionArrayController;
 @synthesize changeArrayController = _changeArrayController;
 
+- (IBAction) packageUpdate: (id) sender
+{
+    [self packageUpdate:self finalize:NO];
+}
+
 - (IBAction) finalizeUpdate: (id) sender
+{
+    [self packageUpdate:self finalize:YES];
+}
+
+- (void) packageUpdate: (id) sender finalize: (BOOL) shouldFinalize
 {
     // Gather some strings for later reference
     NSBundle *appBundle = [NSBundle bundleWithPath:[self.document.product.pathToBuiltProduct path]];
@@ -97,12 +107,15 @@
     rev.shortVersionNumber = shortVersionNumber;
     rev.signature = [signature stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     rev.zipFileSize = zipSizeInBytes;
-    [self.document.product.revisions addObject:rev];
-    [self.document.product.changesSinceLastRevision removeAllObjects];
-    [self.revisionArrayController willChangeValueForKey:@"arrangedObjects"];
-    [self.revisionArrayController didChangeValueForKey:@"arrangedObjects"];
-    [self.changeArrayController willChangeValueForKey:@"arrangedObjects"];
-    [self.changeArrayController didChangeValueForKey:@"arrangedObjects"];
+    if (shouldFinalize)
+    {
+        [self.document.product.revisions addObject:rev];
+        [self.document.product.changesSinceLastRevision removeAllObjects];
+        [self.revisionArrayController willChangeValueForKey:@"arrangedObjects"];
+        [self.revisionArrayController didChangeValueForKey:@"arrangedObjects"];
+        [self.changeArrayController willChangeValueForKey:@"arrangedObjects"];
+        [self.changeArrayController didChangeValueForKey:@"arrangedObjects"];
+    }
     
     // Generate appcast.xml
     NSMutableString *appcastXML = [NSMutableString stringWithFormat:@"<?xml version=\"1.0\" encoding=\"utf-8\"?>\
@@ -117,7 +130,10 @@
                                    [productName lowercaseString]];
 	NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
     [formatter setDateFormat:@"EEE, dd MMM YYYY HH:mm:ss ZZ"];
-    for (Revision *revision in self.document.product.sortedRevisions)
+    
+    NSMutableArray *revisionsToReport = [[self.document.product.sortedRevisions mutableCopy] autorelease];
+    if (!shouldFinalize) [revisionsToReport insertObject:rev atIndex:0];
+    for (Revision *revision in revisionsToReport)
     {
         [appcastXML appendFormat:@"\n\n\t\t<item>\
          \n\t\t\t<title>Version %@ (%@)</title>\

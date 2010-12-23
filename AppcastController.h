@@ -21,7 +21,9 @@
 @property (assign) IBOutlet NSArrayController *revisionArrayController;
 @property (assign) IBOutlet NSArrayController *changeArrayController;
 
+- (IBAction) packageUpdate: (id) sender;
 - (IBAction) finalizeUpdate: (id) sender;
+- (void) packageUpdate: (id) sender finalize: (BOOL) shouldFinalize;
 - (IBAction) importAppcastXML: (id) sender;
 
 @end
