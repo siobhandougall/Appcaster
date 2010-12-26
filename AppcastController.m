@@ -139,7 +139,7 @@
          \n\t\t\t<title>Version %@ (%@)</title>\
          \n\t\t\t<sparkle:releaseNotesLink>http://figure53.com/%@/downloads/release-notes/%@.html</sparkle:releaseNotesLink>\
          \n\t\t\t<pubDate>%@</pubDate>\
-         \n\t\t\t<enclosure url=\"http://figure53.com/%@/downloads/%@-%@-%@\" sparkle:version=\"%@\" sparkle:shortVersionString=\"%@ (%@)\" type=\"application/octet-stream\" length=\"%u\" sparkle:dsaSignature=\"%@\"/>\
+         \n\t\t\t<enclosure url=\"http://figure53.com/%@/downloads/%@-%@-%@.zip\" sparkle:version=\"%@\" sparkle:shortVersionString=\"%@ (%@)\" type=\"application/octet-stream\" length=\"%u\" sparkle:dsaSignature=\"%@\"/>\
          \n\t\t</item>",
          revision.shortVersionNumber,
          revision.buildNumber,
